@@ -1,0 +1,363 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [24/Dec/2023 22:56:19] "[31m[1mGET /opendatakpu/dalamnegeri HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [24/Dec/2023 22:56:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Dec/2023 22:56:42] "[31m[1mGET /opendatakpu/dalamnegeri?cari=jayapura HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:57:28] "[31m[1mGET /opendatakpu/dalamnegeri?cari=jayapura HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:57:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:57:33] "[31m[1mGET /opendatakpu/dalamnegeri?cari=jayapura HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:57:56] "[31m[1mGET /dalamnegeri?cari=jayapura HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:57:59] "[31m[1mGET /dalamnegeri?cari=jayapura HTTP/1.1[0m" 400 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jayapura
+ERROR:web:Exception on /dalamnegeri [GET]
+Traceback (most recent call last):
+  File "/Users/raufendrowidagdo/Developer/project/kpu/lib/python3.9/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/raufendrowidagdo/Developer/project/kpu/lib/python3.9/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/raufendrowidagdo/Developer/project/kpu/lib/python3.9/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/raufendrowidagdo/Developer/project/kpu/lib/python3.9/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'jalanweb' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:58:05] "[35m[1mGET /dalamnegeri?kota=jayapura HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jayapura
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:59:09] "GET /dalamnegeri?kota=jayapura HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jayapura
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:59:12] "GET /dalamnegeri?kota=jayapura HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: aceh selatan
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:59:24] "GET /dalamnegeri?kota=aceh%20selatan HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: aceh selatan
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:59:32] "GET /dalamnegeri?kota=aceh%20selatan HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jayapura
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:59:35] "GET /dalamnegeri?kota=jayapura HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 22:59:37] "[31m[1mGET /dalamnegeri HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:00:13] "[31m[1mGET /dalamnegeri HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:00:15] "[31m[1mGET /dalamnegeri HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:00:17] "[31m[1mGET /dalamnegeri HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:03:46] "[31m[1mGET /dalamnegeri HTTP/1.1[0m" 400 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jayapura
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:03:49] "GET /dalamnegeri?kota=jayapura HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jayapura
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:03:51] "GET /dalamnegeri?kota=jayapura HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:03:56] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:04:32] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:04:49] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: bandung
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:04:56] "GET /dalamnegeri?kota=bandung HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:09] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: yogyakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:12] "GET /dalamnegeri?kota=yogyakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: yogyakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:20] "GET /dalamnegeri?kota=yogyakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:21] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:22] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: sleman
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:24] "GET /dalamnegeri?kota=sleman HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: sleman
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:30] "GET /dalamnegeri?kota=sleman HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:30] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: bantul
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:32] "GET /dalamnegeri?kota=bantul HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:52] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:54] "GET /dalamnegeri?kota=jakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:05:59] "GET /dalamnegeri?kota=jakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:06:00] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: dki jakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:06:08] "GET /dalamnegeri?kota=dki%20jakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: dki jakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:06:14] "GET /dalamnegeri?kota=dki%20jakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:06:17] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:06:21] "GET /dalamnegeri?kota=jakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jakarta selatan
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:06:30] "GET /dalamnegeri?kota=jakarta%20selatan HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jakarta selatan
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:09:40] "GET /dalamnegeri?kota=jakarta%20selatan HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jakarta selatan
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:09:43] "GET /dalamnegeri?kota=jakarta%20selatan HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:09:45] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: yogyakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:09:47] "GET /dalamnegeri?kota=yogyakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jakarta selatan
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:09:53] "GET /dalamnegeri?kota=jakarta%20selatan HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jogjakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:09:54] "GET /dalamnegeri?kota=jogjakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jogjakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:09:57] "GET /dalamnegeri?kota=jogjakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jogjakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:09:58] "GET /dalamnegeri?kota=jogjakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:09:58] "GET /dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: yogyakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:10:00] "GET /dalamnegeri?kota=yogyakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: di yogyakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:10:09] "GET /dalamnegeri?kota=di%20yogyakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: kota yogyakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:10:38] "GET /dalamnegeri?kota=kota%20yogyakarta HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: kota yogyakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:11:30] "GET /opendatakpu/dalamnegeri?kota=kota%20yogyakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: kota yogyakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:11:35] "GET /opendatakpu/dalamnegeri?kota=kota%20yogyakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:11:38] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:09] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:32] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jayapura
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:38] "GET /opendatakpu/dalamnegeri?kota=jayapura HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: jayapura
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:42] "GET /opendatakpu/dalamnegeri?kota=jayapura HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:42] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: biak
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:43] "GET /opendatakpu/dalamnegeri?kota=biak HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: 
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:47] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: kota yogyakarta
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:48] "GET /opendatakpu/dalamnegeri?kota=kota%20yogyakarta HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: kota biak
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:52] "GET /opendatakpu/dalamnegeri?kota=kota%20biak HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: kota biak
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:56] "GET /opendatakpu/dalamnegeri?kota=kota%20biak HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: kota sorong
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:14:58] "GET /opendatakpu/dalamnegeri?kota=kota%20sorong HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:2701
+ * Running on http://192.168.1.12:2701
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6969
+ * Running on http://192.168.1.12:6969
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: kota sorong
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:17:15] "GET /opendatakpu/dalamnegeri?kota=kota%20sorong HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:17:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: kota sorong
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:17:19] "GET /opendatakpu/dalamnegeri?kota=kota%20sorong HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.12
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: sleman
+INFO:werkzeug:192.168.1.12 - - [24/Dec/2023 23:17:22] "GET /opendatakpu/dalamnegeri?kota=sleman HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: 
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:18:05] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:18:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: sleman
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:19:57] "GET /opendatakpu/dalamnegeri?kota=sleman HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:20:54] "[31m[1mGET /opendatakpu/dalamnegeri HTTP/1.1[0m" 400 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: 
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:21:03] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: jayapura
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:32:14] "GET /opendatakpu/dalamnegeri?kota=jayapura HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: lombok
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:32:22] "GET /opendatakpu/dalamnegeri?kota=lombok HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: kota lombok
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:32:32] "GET /opendatakpu/dalamnegeri?kota=kota%20lombok HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: 
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:32:37] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: lombok tengah
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:32:50] "GET /opendatakpu/dalamnegeri?kota=lombok%20tengah HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: lombok barat
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:32:58] "GET /opendatakpu/dalamnegeri?kota=lombok%20barat HTTP/1.1" 200 -
+INFO:root:IP Address: 192.168.1.10
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Query Search: 
+INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:33:07] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
