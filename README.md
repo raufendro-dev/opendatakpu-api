@@ -5,6 +5,7 @@ Open Data KPU API adalah API unofficial untuk mendapatkan data seputar pemilu be
 ### Run
 #### Rekapitulasi Daftar Pemilih Tetap (DPT) Dalam Negeri Pemilu Tahun 2024
 Live link sample : http://103.193.178.139:6969/opendatakpu/dalamnegeri?kota=
+
 Catatan : 
 - Jika ingin menampilkan seluruh kota cukup kosongkan parameter kota seperti sample diatas
 - Jika ingin menampilkan kota tertentu bisa diisi seperti berikut http://103.193.178.139:6969/opendatakpu/dalamnegeri?kota=sleman
