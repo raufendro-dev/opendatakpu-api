@@ -17,6 +17,7 @@ Catatan :
 Install terlebih dahulu library python berikut
 - Flask
 - openpyxl
+
 Atau dapat menggunakan venv yang terdapat pada repository ini
 
 ### Run WebServer
