@@ -165,46 +165,74 @@ def profilpartai(query):
     if query == "":
             namaparpol = []
             namaparpol = namaparpol_values
+            namaparpol.remove("NAMA_PARPOL")
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
 
             akronim = []
             akronim = akronim_values
+            akronim.remove("AKRONIM")
 
             nosklambangpp = []
             nosklambangpp = nosklambangpp_values
+            nosklambangpp.remove("no_sk_lambang_pp")
 
             nobnppterdaftar = []
             nobnppterdaftar = nobnppterdaftar_values
+            nobnppterdaftar.remove("no_bn_pp_terdaftar")
 
             tglbnpp = []
             tglbnpp = tglbnpp_values
+            tglbnpp.remove("tgl_bn_pp_terdaftar")
 
             namanotaris = []
             namanotaris = namanotaris_values
+            namanotaris.remove("nama_notaris")
 
             noaktenotaris = []
             noaktenotaris = noaktenotaris_values
+            noaktenotaris.remove("no_akte_notaris")
             
             alamatnotaris = []
             alamatnotaris = alamatnotaris_values
+            alamatnotaris.remove("alamat_notaris")
 
             tglaktanotaris = []
             tglaktanotaris = tglaktanotaris_values
+            tglaktanotaris.remove("tgl_akta_notaris")
 
             noadart = []
             noadart = noadart_values
+            noadart.remove("no_ad_art")
 
             tgladart = []
             tgladart = tgladart_values
+            tgladart.remove("tgl_ad_art")
 
             email =[]
             email = email_values
+            email.remove("email")
             
             website =[]
             website = website_values
+            website.remove("website")
 
             nourutpemilu2024 = []
             nourutpemilu2024 = nourutpemilu2024_values
+            nourutpemilu2024.remove("no urut pemilu 2024")
 
 
 
