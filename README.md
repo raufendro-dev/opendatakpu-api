@@ -11,6 +11,13 @@ Catatan :
 - Jika ingin menampilkan kota tertentu bisa diisi seperti berikut http://103.193.178.139:6969/opendatakpu/dalamnegeri?kota=sleman
 
 
+#### Data Profil Partai Politik Peserta Pemilu 2024
+Live link sample : http://103.193.178.139:6969/opendatakpu/profilpartai?partai=
+
+Catatan : 
+- Jika ingin menampilkan seluruh partai cukup kosongkan parameter partai seperti sample diatas
+- Jika ingin menampilkan partai tertentu bisa diisi seperti berikut http://103.193.178.139:6969/opendatakpu/profilpartai?partai=nasdem
+
 ## Cara penggunaan
 
 ### Install Library Python
@@ -25,6 +32,7 @@ Atau dapat menggunakan venv yang terdapat pada repository ini
 Jalankan file web
 - python3 web.py
 - buka pada browser, contoh : http://localhost:6969/opendatakpu/dalamnegeri?kota=
+- buka pada browser, contoh : http://localhost:6969/opendatakpu/profilpartai?partai=
 
 ### Catatan
 - Link pada browser bisa menggunakan ip atau domain anda
