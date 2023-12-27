@@ -2,6 +2,8 @@
 
 Open Data KPU API adalah API unofficial untuk mendapatkan data seputar pemilu berbentuk json. Open Data KPU API mengambil data yang terdapat pada halaman http://opendata.kpu.go.id
 
+![alt text](https://github.com/raufendro-dev/opendatakpu-api/blob/main/opendata.png?raw=true)
+
 ### Run
 #### Rekapitulasi Daftar Pemilih Tetap (DPT) Dalam Negeri Pemilu Tahun 2024
 Live link sample : http://103.193.178.139:6969/opendatakpu/dalamnegeri?kota=
