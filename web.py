@@ -13,6 +13,16 @@ def jalanweb():
         ambillog = 'IP Address: '+ip+'\n'+'User Agent: '+asal+'\n'+'Query Search: '+cari
         logging.info(ambillog)
         return hasil
+@app.route('/opendatakpu/profilpartai',  methods=['GET'])
+def jalanweb2():
+    if request.method == 'GET':
+        cari = request.args['partai']
+        hasil = ambildata.profilpartai(cari)
+        ip = request.environ.get('HTTP_X_REAL_IP', request.remote_addr) 
+        asal = request.headers.get('User-Agent')
+        ambillog = 'IP Address: '+ip+'\n'+'User Agent: '+asal+'\n'+'Query Search: '+cari
+        logging.info(ambillog)
+        return hasil
  
 
 if __name__ == '__main__':

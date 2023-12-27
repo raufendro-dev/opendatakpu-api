@@ -361,3 +361,18 @@ INFO:root:IP Address: 192.168.1.10
 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 Query Search: 
 INFO:werkzeug:192.168.1.10 - - [24/Dec/2023 23:33:07] "GET /opendatakpu/dalamnegeri?kota= HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6969
+ * Running on http://192.168.1.12:6969
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6969
+ * Running on http://192.168.87.10:6969
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:IP Address: 127.0.0.1
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Query Search: nasdem
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2023 12:20:42] "GET /opendatakpu/profilpartai?partai=nasdem HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Dec/2023 12:20:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
